@@ -1,0 +1,59 @@
+/* styles.css */
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('natal.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px #ff0000;
+}
+
+main .convite {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+main .convite h2 {
+    color: #d43f3a;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+main .convite ul {
+    list-style: none;
+    padding: 0;
+}
+
+main .convite li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    color: #fff;
+}
+
+audio {
+    margin-top: 20px;
+}
